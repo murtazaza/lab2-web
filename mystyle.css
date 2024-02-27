@@ -1,0 +1,51 @@
+
+
+body{
+  background-color: deepskyblue;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 7px solid deepblue;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+div {
+  background-color: lightgrey;
+  width: 300px;
+  height: 600px;
+  padding: 100px;
+  margin: 90px;
+}
+
+.container { 
+  height: 200px;
+  position: center;
+  border: 3px solid; 
+}
+
+
+.button {
+  background-color: deepskyblue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline for the button */
+  display: inline-block; /* Ensure button behaves like a block element */
+}
+
+.button:hover {
+  background-color: lightblue; /* Change to a lighter shade on hover */
+}
+
+
